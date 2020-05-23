@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Pantai Pink",
+        "category": "Beach",
+        "city": "Lombok,Nusa Tenggara Barat",
+        "state": "Indonesia",
+        "id": 1001,
+      
+        "coordinates": {
+            "longitude": 116.5622,
+            "latitude": 8.8554
+        },
+        "imageName": "pantaipink"
+    },
+    {
+        "name": "Danau Toba",
+        "category": "Lakes",
+        "city": "Parapat, Sumatera Utara",
+        "state": "Indonesia",
+        "id": 1002,
+    
+        "coordinates": {
+            "longitude": 98.6161,
+            "latitude":  2.7861,
+        },
+        "imageName": "danautoba"
+    },
+    {
+        "name": "Gunung Prau",
+        "category": "Mountain",
+        "city": "Jawa Tengah",
+        "state": "Indonesia",
+        "id": 1003,
+    
+        "coordinates": {
+            "longitude": 109.9228,
+            "latitude": -7.1869
+        },
+        "imageName": "gunungprau"
+    },
+    {
+        "name": "Gunung Rinjani",
+        "category": "Mountain",
+        "city": "Lombok , Nusa Tenggara Barat",
+       "state": "Indonesia",
+        "id": 1004,
+      
+        "coordinates": {
+            "longitude": 116.4573,
+            "latitude": 8.4113
+        },
+        "imageName": "gunungrinjani"
+    },
+    {
+        "name": "Gunung Papandayan",
+        "category": "Mountain",
+        "city": "Bandung , Jawa Barat",
+       "state": "Indonesia",
+        "id": 1005,
+       
+        "coordinates": {
+            "longitude": 107.7310,
+            "latitude": 7.3193
+        },
+        "imageName": "gunungpapandayan"
+    },
+    {
+        "name": "Danau Segara",
+        "category": "Lakes",
+        "city": "Lombok, Nusa Tenggara Barat",
+      "state": "Indonesia",
+        "id": 1006,
+       
+        "coordinates": {
+            "longitude": 116.4017,
+            "latitude": 8.4100
+        },
+        "imageName": "danausegara"
+    },
+    {
+        "name": "Tanjung Bira",
+        "category": "Beach",
+        "city": "Bulukumba , Sulawesi Selatan",
+        "state": "Indonesia",
+        "id": 1007,
+       
+        "coordinates": {
+            "longitude": 120.4498,
+            "latitude": 5.6091
+        },
+        "imageName": "tanjungbira"
+    },
+    {
+        "name": "Gili Trawangan",
+        "category": "Beach",
+        "city": "Lombok , Nusa Tenggara Barat",
+        "state": "Indonesia",
+        "id": 1008,
+       
+        "coordinates": {
+            "longitude": 116.0384,
+            "latitude": 8.3483
+        },
+        "imageName": "giliterawang"
+    },
+    {
+        "name": "Danau Kelimutu",
+        "category": "Lakes",
+        "city": "Flores , Nusa Tenggara Timur",
+        "state": "Indonesia",
+        "id": 1009,
+       
+        "coordinates": {
+            "longitude": 121.8142,
+            "latitude": 8.7661
+        },
+        "imageName": "danaukelimutu"
+    },
+    {
+        "name": "Danau Sentani",
+        "category": "Lakes",
+        "city": "Jayapura , Papua",
+        "state": "Indonesia",
+        "id": 1010,
+      
+        "coordinates": {
+            "longitude": 140.5187 ,
+            "latitude": 2.6133
+        },
+        "imageName": "danausentani"
+    },
+    {
+        "name": "Danau Semeru",
+        "category": "Lakes",
+        "city": "Lumajang , Jawa Timur",
+        "state": "Indonesia",
+        "id": 1011,
+        "coordinates": {
+            "longitude": 112.9208,
+            "latitude": 8.0496
+        },
+        "imageName": "gunungsemeru"
+    },
+    {
+        "name": "Pantai Ora",
+        "category": "Beach",
+        "city": "Maluku",
+        "state": "Indonesia",
+        "id": 1012,
+      
+        "coordinates": {
+            "longitude": 129.1392,
+            "latitude": 2.9599
+        },
+        "imageName": "pantaiora"
+    }
+]
