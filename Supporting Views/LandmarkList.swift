@@ -9,23 +9,35 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    
     var body: some View {
         NavigationView {
-            List(landmarkData) { landmark in
-                NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
-                    LandmarkRow(landmark: landmark)
+            VStack {
+                List(landmarkData) { landmark in
+                    NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                        LandmarkRow(landmark: landmark)
+                            .navigationBarTitle("Wisata Alam")
+                            .navigationBarItems(trailing:
+                                NavigationLink(destination: AboutView()){
+                                   IconProfile(icon: Image("profile"))
+                             }
+                        )
+                    }
                 }
             }
-            .navigationBarTitle(Text("Wisata Alam Indoensia"))
         }
     }
 }
 
+
+
+
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone SE", "iPhone XS Max"], id: \.self) { deviceName in
+        ForEach(["iPhone 11 pro","iPhone 8"], id: \.self) { deviceName in
             LandmarkList()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
         }
     }
 }
+

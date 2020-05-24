@@ -1,17 +1,16 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Helpers for loading images and data.
-*/
+ See LICENSE folder for this sample’s licensing information.
+ 
+ Abstract:
+ Helpers for loading images and data.
+ */
 
 import UIKit
 import SwiftUI
-import CoreLocation
 
-let landmarkData: [Landmark] = load("landmarkData.json")
+let landmarkData: [Landmark] = loadData("landmarkData.json")
 
-func load<T: Decodable>(_ filename: String) -> T {
+func loadData<T: Decodable>(_ filename: String) -> T {
     let data: Data
     
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
@@ -36,7 +35,7 @@ func load<T: Decodable>(_ filename: String) -> T {
 final class ImageStore {
     typealias _ImageDictionary = [String: CGImage]
     fileprivate var images: _ImageDictionary = [:]
-
+    
     fileprivate static var scale = 2
     
     static var shared = ImageStore()
@@ -46,14 +45,14 @@ final class ImageStore {
         
         return Image(images.values[index], scale: CGFloat(ImageStore.scale), label: Text(name))
     }
-
+    
     static func loadImage(name: String) -> CGImage {
         guard
             let url = Bundle.main.url(forResource: name, withExtension:"jpg"),
             let imageSource = CGImageSourceCreateWithURL(url as NSURL, nil),
             let image = CGImageSourceCreateImageAtIndex(imageSource, 0, nil)
-        else {
-            fatalError("Couldn't load image \(name).jpg from main bundle.")
+            else {
+                fatalError("Couldn't load image \(name).jpg from main bundle.")
         }
         return image
     }
